@@ -105,5 +105,5 @@ footer {
 }
 
 #footertext:hover {
-  color: red;
+  text-decoration: underline;
 }

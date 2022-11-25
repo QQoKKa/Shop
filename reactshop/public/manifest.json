@@ -18,6 +18,12 @@
       "sizes": "512x512"
     }
   ],
+  "styles": [
+    {
+      "src": "toastbuy.css",
+      "type": "text/css"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
