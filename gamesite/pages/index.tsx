@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 
 
 export default function Home() {
+
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -32,10 +34,8 @@ export default function Home() {
       </section>
       <footer className={styles.footerContainer}>
         <div className={styles.footertext}>
-          <Link className={styles["link"] + " " + styles["contact"]}  href="/Sudoku">Contact</Link>
-          <Link href="/sudoku" legacyBehavior>
-      <a>About Us</a>
-    </Link>
+          <Link className={styles["link"] + " " + styles["contact"]}  href="">Contact</Link>
+          <Link className={styles["link"] + " " + styles["contact"]}  href="">Donate</Link>
         </div>
       </footer>
     </div>
