@@ -1,14 +1,14 @@
 .headercontainer {
   text-align: center;
   height: 15vh;
-  background-color: #2b2b2b;
+  background-color: #42253B;
   color: rgb(255, 255, 255);
 }
 .oneplayer {
   text-align: center;
 }
 .twoplayer {
-text-align: center;
+  text-align: center;
 }
 
 .onesectioncontainer {
@@ -27,16 +27,16 @@ text-align: center;
   "a a a a a";
 }
 .box {
-  height: 200px;
-  width: 200px;
-  border: 4px solid rgb(119, 0, 159);
+  height: 250px;
+  width: 250px;
+  border: 4px solid #4C2C69;
   border-radius: 20px;
 }
 
 .footerContainer {
   position: absolute;
   bottom: 0;
-  background-color: #282c34;
+  background-color: #42253B;
   height: 5vh;
   width: 100vw;
   display: flex;
@@ -57,6 +57,7 @@ text-align: center;
 }
 
 .info {
+  color: white;
   font-size: calc(10px + 2vmin);
   padding-top: 11%;
   font-weight: bold;

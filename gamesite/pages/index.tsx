@@ -40,7 +40,7 @@ export default function Home() {
       <section className={styles.onesectioncontainer}>
         <div className={styles["box"] + " " + styles["wordle"]}></div>
         <div className={styles["box"] + " " + styles["sudoku"]}></div>
-        <div className={styles["box"] + " " + styles["flappybird"]}></div>
+       <Link href="/flappybird"><div className={styles["box"] + " " + styles["flappybird"]}></div></Link>
         <div className={styles["box"] + " " + styles["wordle2"]}></div>
       </section>
         <h2 className={styles.twoplayer}>2-Player Games:</h2>
@@ -53,7 +53,7 @@ export default function Home() {
       <footer className={styles.footerContainer}>
         <div className={styles.footertext}>
           <Link id='contactid' className={styles["link"] + " " + styles["contact"]}  href="">Contact</Link>
-          <Link className={styles["link"] + " " + styles["donate"]}  href="https://www.patreon.com/user?u=83366049">Donate</Link>
+          <Link className={styles["link"] + " " + styles["donate"]}  href="https://www.patreon.com/user?u=83366049" target="_blank">Donate</Link>
         </div>
       </footer>
       <script src='../scripts/index.ts'></script>
