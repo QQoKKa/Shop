@@ -1,0 +1,34 @@
+.headercontainer {
+  text-align: center;
+  height: 15vh;
+  background-color: #2b2b2b;
+  color: rgb(255, 255, 255);
+}
+.oneplayer {
+  text-align: center;
+}
+.twoplayer {
+text-align: center;
+}
+
+.onesectioncontainer {
+  margin-left: 15vw;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-areas: 
+  "a a a a a";
+}
+
+.twosectioncontainer {
+  margin-left: 15vw;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-areas: 
+  "a a a a a";
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 4px solid rgb(119, 0, 159);
+  border-radius: 20px;
+}
