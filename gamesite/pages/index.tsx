@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 
@@ -30,6 +31,12 @@ export default function Home() {
         <div className={styles["box"] + " " + styles["wordle2"]}></div>
       </section>
       <footer className={styles.footerContainer}>
+        <div className={styles.footertext}>
+          <Link className={styles["link"] + " " + styles["contact"]}  href="/Sudoku">Contact</Link>
+          <Link href="/sudoku" legacyBehavior>
+      <a>About Us</a>
+    </Link>
+        </div>
       </footer>
     </div>
   )
