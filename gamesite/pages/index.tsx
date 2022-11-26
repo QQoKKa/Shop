@@ -8,10 +8,16 @@ import {useEffect} from "react";
 export default function Home() {
 
   useEffect(() => {
+    const closeifobox = document.getElementById("closeinfobox") as HTMLInputElement | null;
     const contactinfo = document.getElementById('contactid') as HTMLInputElement | null;
+    const ifobox = document.getElementById('infobox') as HTMLInputElement | null;
+    ifobox!.style.visibility = 'hidden';
     contactinfo?.addEventListener('click', function handleClick(event) {
-      contactinfo.style.opacity = '1';
-  });
+    ifobox!.style.visibility = 'visible'; 
+    });
+    closeifobox?.addEventListener('click', function handleClick(event) {
+    ifobox!.style.visibility = 'hidden'; 
+    });
   }, []);
 
   
@@ -23,7 +29,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.info}>E-mail: balcerzakmateuszkontakt@gmail.com</div>
+      <div id='infobox' className={styles.info}>
+        <div id='closeinfobox'>Close</div>
+        E-mail: balcerzakmateuszkontakt@gmail.com</div>
       <header className={styles.headercontainer}>
         <img className={styles.img} src="" alt="" />
         <h1>EndWithBoredom</h1>

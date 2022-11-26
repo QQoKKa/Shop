@@ -49,10 +49,14 @@ text-align: center;
   font-size: calc(2px + 2vmin);
   color: white;
   text-decoration: none;
+  margin: 50px;
+}
+
+.link:hover {
+ text-decoration: underline;
 }
 
 .info {
-  opacity: 0;
   font-size: calc(10px + 2vmin);
   padding-top: 11%;
   font-weight: bold;
@@ -61,8 +65,9 @@ text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(255, 0, 0);
+  background-color: #282c34;
+  border: 2px solid red;
   width: 40vw;
   height: 50vh;
-  border-radius: 30px;
+  border-radius: 30px; 
 }
